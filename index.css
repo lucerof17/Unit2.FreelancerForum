@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#freelancer-list {
+    margin-top: 20px;
+}
+
+.freelancer {
+    border: 0px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.freelancer div {
+    flex: 1;
+    text-align: left;
+    margin: 5px;
+}
